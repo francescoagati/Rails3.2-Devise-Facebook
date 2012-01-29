@@ -4,9 +4,9 @@ This is a very basic bootstrapping template that has the following features in p
 
 * Rails 3.2
 * Devise 2.0
-  * users con login with either username or email
+  users can login with either username or email
 * Facebook integration (via OmniAuth)
-  * users can login with Facebook. I keep track of their username, location, first name, last name, url and token.
+  users can login with Facebook. I keep track of their username, location, first name, last name, url and token.
 * Twitter Bootstrap framework in SCSS
 
 Installation
@@ -24,15 +24,15 @@ change the facebook configuration code and choose what permissions you'd like to
 
 change the mailing method and credentials
 
-  config.action_mailer.smtp_settings = {
-    :enable_starttls_auto => true,
-    :address => "smtp.gmail.com",
-    :port => 587,
-    :domain => "gmail.com",
-    :authentication => :login,
-    :user_name => "your-email",
-    :password => "your-password",
-  }
+    config.action_mailer.smtp_settings = {
+      :enable_starttls_auto => true,
+      :address => "smtp.gmail.com",
+      :port => 587,
+      :domain => "gmail.com",
+      :authentication => :login,
+      :user_name => "your-email",
+      :password => "your-password",
+    }
 
 
 Enjoy
