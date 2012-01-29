@@ -4,9 +4,9 @@ This is a very basic bootstrapping template that has the following features in p
 
 * Rails 3.2
 * Devise 2.0
-  users can login with either username or email
+    users can login with either username or email
 * Facebook integration (via OmniAuth)
-  users can login with Facebook. I keep track of their username, location, first name, last name, url and token.
+    users can login with Facebook. I keep track of their username, location, first name, last name, url and token.
 * Twitter Bootstrap framework in SCSS
 
 Installation
